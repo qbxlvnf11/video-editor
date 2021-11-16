@@ -9,7 +9,7 @@ def parse_args():
 		default=-1)
 	parser.add_argument('--save_interval', type=int, help='saving fps interval',
 		default=1)
-	parser.add_argument('--result_path', help='result folder',
+	parser.add_argument('--result_path', help='result save path',
 		default='./images')
 
 	args = parser.parse_args()
